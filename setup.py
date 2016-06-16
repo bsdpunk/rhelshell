@@ -7,7 +7,7 @@ install_requires = ['requests']
 setup(
     name='rhelshell',
     version='0.1',
-    packages=['linosh',],
+    packages=['rhelshell',],
     install_requires=install_requires,
     entry_points = { 'console_scripts': [
         'linosh = linosh.linosh:cli', ],
